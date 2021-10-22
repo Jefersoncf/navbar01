@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('kir-simakov-2nC0CkG3Ygo-unsplash.jpg');
+    background-size: cover;
+}
+nav {
+    margin: auto 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li {
+    list-style: none;
+    background: none;
+    padding: 30px 40px;
+}
+nav ul li a {
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: white;
+    padding: 10px 20px;  
+    border-radius: 0.5rem;
+}
+nav ul li a:hover {
+    background: #3a7fd3;
+    color: white;
+}
+div {
+    text-align: center;
+    align-items: center;
+    background: none;
+}
+div h2 {
+    font-size:4rem;
+    color: white;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
